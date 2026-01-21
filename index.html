@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Sonia Afrose</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#work">My Work</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="hero-section text-center">
+  <div class="container">
+    <h1>Hello, I'm <span class="highlight">Sonia Afrose</span></h1>
+    <p class="lead"> SDET Professional | Data Analyst | Web Developer</p>
+    <a href="#work" class="btn btn-primary mt-3">View My Work</a>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section-padding text-center">
+  <div class="container">
+    <h2 class="mb-4">Skills</h2>
+    <ul class="list-unstyled">
+      <li class="mb-2"><i class="fas fa-check-circle me-2 text-primary"></i>Software Testing:<I>Requirement Analysis, Test Plan Creation, Test Case Writing and Execution, Smoke Testing, Acceptance Testing, Defect Documentation</I></li>
+      <li class="mb-2"><i class="fas fa-check-circle me-2 text-primary"></i>Testing Frameworks & Tools:<I>Selenium, Cucumber, JUnit, TestNG, Postman</I></li>
+      <li class="mb-2"><i class="fas fa-check-circle me-2 text-primary"></i>Web Technologies:<I>HTML, CSS, Bootstrap, JavaScript, React</I></li>
+      <li class="mb-2"><i class="fas fa-check-circle me-2 text-primary"></i>Databases:<I>Oracle, MySQL, Microsoft SQL Server</I></li>
+      <li class="mb-2"><i class="fas fa-check-circle me-2 text-primary"></i>Data Visualization:<I>R, SAS, Tableau</I></li>
+      <li class="mb-2"><i class="fas fa-check-circle me-2 text-primary"></i>Languages:<I>Java, Python, R</I></li>
+    </ul>
+  </div>
+</section>
+
+<!-- Work Section -->
+<section id="work" class="section-padding bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Data Analysis Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">Tableau Churn Rate Dashboard</h5>
+            <p class="card-text">Payment method, tenure churn count, monthly charges, contract type, etc are combined in one sheet with analysis and recommendation.<br>Tool: Tableau</p>
+            <a href="https://public.tableau.com/app/profile/soniaa.i4613/viz/ChurnRateDashboard_17688795438420/ChurnRateDashboard" class="btn btn-outline-primary">View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">Crime Data Analysis of Philadelphia between the year 2006 and 2015.</h5>
+            <p class="card-text">Crime rate, area and related data analysis of ten years.<br>Tool: R, DataSource: OpenDataPhilly.Org</p>
+            <a href="https://github.com/afrosesonia/philadelphia-crime-analysis" class="btn btn-outline-primary">View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">Predict best location for a company to open stores by analyzing Household Income, Crime, High School/College Graduation Rate and Unemployment Rate Data</h5>
+            <p class="card-text">Data analysis and selection of a place for business professionals.<br>Tool: SAS Enterprise Miner, DataSource: Data.Gov</p>
+            <!--<a href="#" class="btn btn-outline-primary">View</a>-->
+          </div>
+        </div>
+      </div>
+    </div>
+	<div><br></div>
+	<h2 class="text-center mb-4">Web Development Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">Photographer Portfolio Website</h5>
+            <p class="card-text">A website to Show professional photographer's work and connect with clients.</p>
+            <a href="https://afrosesonia.github.io/photographer-portfolio/" class="btn btn-outline-primary">View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">Resume Website</h5>
+            <p class="card-text">Resume Website for Professionals.</p>
+            <a href="https://afrosesonia.github.io/resume/" class="btn btn-outline-primary">View</a>
+			<a href="https://afrosesonia.github.io/personal-resume-website/" class="btn btn-outline-primary">View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">To Do List</h5>
+            <p class="card-text">A simple web design.</p>
+            <a href="https://soniaafrose.github.io/todo-list-website/" class="btn btn-outline-primary">View</a>
+			<!--<a href="https://soniaafrose.github.io/todo-list-website/" class="btn btn-outline-primary">View</a>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Contact Section -->
+<section id="contact" class="section-padding">
+  <div class="container text-center">
+    <h2>Contact Me</h2>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form id="contactForm" class="mt-4">
+          <input type="text" class="form-control mb-3" placeholder="Sonia Afrose" required>
+          <input type="email" class="form-control mb-3" placeholder="afrose.sonia@outlook.com" required>
+          <textarea class="form-control mb-3" rows="4" placeholder="Message" required></textarea>
+          <button class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-4">
+  <div class="mb-2">
+    <a href="https://github.com/afrosesonia" class="social-icon"><i class="fab fa-github"></i></a>
+    <a href="https://x.com/soniaafrose" class="social-icon"><i class="fab fa-twitter"></i></a>
+    <a href="afrose.sonia@outlook.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/soniaafrose/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <p>© <span id="year"></span> Sonia</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script src="js/script.js"></script>
+</body>
+</html>
